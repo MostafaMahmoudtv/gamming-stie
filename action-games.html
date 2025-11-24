@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قائمة الألعاب</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+    .games-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .game {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      font-size: 18px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .game:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .game-number {
+      font-weight: bold;
+      font-size: 22px;
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>قائمة الألعاب</header>
+
+  <div class="games-container">
+    <div class="game"><div class="game-number">1</div>لعبة 1</div>
+    <div class="game"><div class="game-number">2</div>لعبة 2</div>
+    <div class="game"><div class="game-number">3</div>لعبة 3</div>
+    <div class="game"><div class="game-number">4</div>لعبة 4</div>
+    <div class="game"><div class="game-number">5</div>لعبة 5</div>
+    <div class="game"><div class="game-number">6</div>لعبة 6</div>
+    <div class="game"><div class="game-number">7</div>لعبة 7</div>
+    <div class="game"><div class="game-number">8</div>لعبة 8</div>
+    <div class="game"><div class="game-number">9</div>لعبة 9</div>
+    <div class="game"><div class="game-number">10</div>لعبة 10</div>
+    <div class="game"><div class="game-number">11</div>لعبة 11</div>
+    <div class="game"><div class="game-number">12</div>لعبة 12</div>
+    <div class="game"><div class="game-number">13</div>لعبة 13</div>
+    <div class="game"><div class="game-number">14</div>لعبة 14</div>
+    <div class="game"><div class="game-number">15</div>لعبة 15</div>
+    <div class="game"><div class="game-number">16</div>لعبة 16</div>
+    <div class="game"><div class="game-number">17</div>لعبة 17</div>
+    <div class="game"><div class="game-number">18</div>لعبة 18</div>
+    <div class="game"><div class="game-number">19</div>لعبة 19</div>
+    <div class="game"><div class="game-number">20</div>لعبة 20</div>
+  </div>
+</body>
+</html>
